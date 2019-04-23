@@ -1,8 +1,14 @@
 h1 {
     font-family: Anton, Lato;
-    color: teal
+    color: teal;
 }
 
 nav li {
-    display: inline
+    display: inline;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
