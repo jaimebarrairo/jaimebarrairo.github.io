@@ -1,3 +1,12 @@
 h1{
-    Font-family: Lora, Georgia
+    Font-family: Lora, Georgia;
+}
+
+.main{
+    margin: 0 auto;
+    width: 100px
+
+}
+video{
+    width: 100%;
 }
