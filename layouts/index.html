@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+    {{/*  imports "head.html" from the partials/ folder in layouts/  */}}
+    {{/*  the second argument is the context for variables in "head.html" and using "." 
+    means use the same variable namespace as this document  */}}
+
+</head>
+<body>
+    {{ partial "navbar.html" (dict "context" . "originPage" "home") }}
+    {{/*  partial takes two parameters: first parameter is a string, the second is an object  */}}
+    {{/*  in this case, the second argument is a dictionary object  */}}
+    {{/*  dict creates a new dictionary with a set of key-value pairs. 
+        As many as you want, but they must be paired "key value key value key value" */}}
+
+    {{ .Scratch.Set "elements" .Site.Data.project_order.content }}
+    
+    {{/*  if you want to display the normal card-layout gallery, use the code below  */}}
+    <div class="container">
+            {{ partial "card-layout.html" . }}
+        </div>
+    
+        {{/*  if you want to display scrolling layout gallery, use the code below  */}}
+        <!-- {{ partial "scrolling-layout.html" . }} -->
+        
+        {{/*  If you want to display your site in sections, use the code below  */}}
+    
+        <!-- <div class="container">
+            <h2>Albums</h2>
+            {{ .Scratch.Set "elements" .Site.Data.project_order.albums }}
+            {{ partial "card-layout.html" . }}
+    
+            <h2>Singles</h2>
+            {{ .Scratch.Set "elements" .Site.Data.project_order.singles }}
+            {{ partial "card-layout.html" . }}
+        </div> -->
+
+    {{ partial "scripts.html" }}
+</body>
+<footer>
+    <small>&copy; Copyright 2019, Jaime Barrairo. All Rights Reserved.</small>
+</footer>
+</html>
