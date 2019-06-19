@@ -12,4 +12,4 @@
 
 +++
 
-Hello! My name is Jaime Barrairo and I am a photographer, videographer, and filmmaker from a small neighborhood in San Franicsco. My personal interests focus on the beauty of brown skin, marginalized communities, spoken word, and I plan to continue documenting and creating stories about the Filipinx American narrative through filmmaking. Interested in having your graduation photos taken? Need a new headshot? Want to create a film or video? Contact me at jaimebarrairo@gmail.com!
+Hello! My name is Jaime Barrairo and I am a videographer and filmmaker from a small neighborhood in San Franicsco. My personal interests focus on the beauty of brown skin, marginalized communities, spoken word, and I plan to continue documenting and creating stories about the Filipinx American narrative through filmmaking. Want to create a film or video? Contact me at jaimebarrairo@gmail.com!
